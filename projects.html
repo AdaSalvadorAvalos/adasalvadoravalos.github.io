@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ada Salvador Avalos | Projects</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f9; color:#333; }
+    header { background: #222; color:white; padding:2rem; text-align:center; }
+    .profile-pic { width:120px; height:120px; border-radius:50%; object-fit:cover; margin-bottom:1rem; border:3px solid #fff; }
+    h1 { color:#f4f4f9; margin-bottom:0.5rem; }
+    section { max-width:900px; margin:2rem auto; padding:1rem; }
+    h2 { color:#222; }
+    .project { background:white; padding:1rem; margin-bottom:1.5rem; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.1); }
+    .skills { margin-top:0.5rem; }
+    .skill-badge { display:inline-block; background:#eee; color:#333; padding:0.3rem 0.6rem; margin:0.2rem; border-radius:5px; font-size:0.85rem; font-weight:bold; }
+    a { color:#0066cc; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .video-embed { margin-top:1rem; position:relative; padding-bottom:56.25%; height:0; overflow:hidden; }
+    .video-embed iframe { position:absolute; top:0; left:0; width:100%; height:100%; border:none; }
+    .button { display:inline-block; margin:1rem 0; padding:0.5rem 1rem; background:#0066cc; color:white; text-decoration:none; border-radius:8px; font-weight:bold; }
+    .button:hover { background:#004999; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="profile.jpg" alt="Ada Salvador Avalos" class="profile-pic">
+    <h1>Ada Salvador Avalos</h1>
+    <p>Acoustic Engineer | Software Engineer | Audio DSP & AI/ML</p>
+    <p>Barcelona, Catalonia, Spain</p>
+    <a href="index.html" class="button">Back to About Me</a>
+  </header>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/AdaSalvadorAvalos/Digital-Processors" target="_blank">Digital Processors</a></h3>
+      <p>Developed a series of hands-on ESP32 projects for a Digital Processors course, including WiFi audio streaming, serial communication, SD card playback, and OLED menu systems. The final project integrates multiple concepts to create a temperature-responsive music player with push-button navigation and dynamic audio selection.</p>
+      <div class="skills"><span class="skill-badge">C</span><span class="skill-badge">C++</span><span class="skill-badge">HTML</span></div>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/AdaSalvadorAvalos/Analog-Digital-Communications" target="_blank">Analog and Digital Communications</a></h3>
+      <p>Completed a series of MATLAB practices for the Analog and Digital Communications (ADC) course as part of a Bachelor's in Audiovisual Systems Engineering.
+        The project covers digital baseband and passband modulation, PAM and PSK encoding/decoding, matched filtering, SNR analysis, and symbol detection.</p>
+      <div class="skills"><span class="skill-badge">MATLAB</span></div>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/AdaSalvadorAvalos/musicxml-transcriber-editor" target="_blank">Final Degree Project: MusicXML Transcriber & Editor</a></h3>
+      <p> A desktop app that converts piano monophonic audio (MP3/MIDI) into MusicXML, with a web-based interface for editing, playback, and applying musical effects.
+        The system transcribes audio into MusicXML scores and provides tools for visualization, editing, and applying musical effects.</p>
+      <div class="skills"><span class="skill-badge">Python</span><span class="skill-badge">JavaScript</span><span class="skill-badge">HTML</span><span class="skill-badge">SVG</span><span class="skill-badge">jQuery</span></div>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/34K5PG9SdkM" title="Bachelor final project demonstration" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/AdaSalvadorAvalos/conditioned-morpher-transformer-model" target="_blank">Conditioned Morpher Transformer</a></h3>
+      <p>As part of the Freesound Loop Generator experiments, I developed the Conditioned Morpher Transformer (CMT), a custom transformer model for audio loop morphing with explicit control over style and tempo. The CMT enables smooth interpolation between audio loops while controlling perceptual attributes.</p>
+      <div class="skills"><span class="skill-badge">Python</span><span class="skill-badge">PyTorch</span><span class="skill-badge">Machine Learning</span><span class="skill-badge">Audio DSP</span></div>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/AdaSalvadorAvalos/freesound-loop-generator" target="_blank">Master’s Thesis: Freesound Loop Generator</a></h3>
+      <p>Synthesis of new audio loops using neural networks, with a focus on creative sound generation through latent space manipulation. This project explores creative audio loop generation using neural networks, leveraging the RAVE model and the Freesound Loop Dataset. It includes preprocessing pipelines, dataset analysis, training setup, inference scripts in Max for real-time generation, and evaluation tools.</p>
+      <div class="skills"><span class="skill-badge">Python</span><span class="skill-badge">PyTorch</span><span class="skill-badge">Max</span><span class="skill-badge">Audio Processing</span><span class="skill-badge">Machine Learning</span></div>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/28W14f0ROkA" title="Master thesis video introduction & demonstration" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>
